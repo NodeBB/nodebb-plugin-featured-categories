@@ -1,0 +1,14 @@
+{
+  "name": "nodebb-plugin-featured-categories",
+  "version": "0.0.1",
+  "description": "Add featured category cards to the homepage",
+  	"url": "https://github.com/NodeBB/nodebb-plugin-featured-categories",
+  "main": "library.js",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "featured",
+    "categories"
+  ],
+  "readmeFilename": "README.md"
+}

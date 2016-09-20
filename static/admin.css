@@ -1,0 +1,7 @@
+.featured-categories select, .featured-categories label {
+  padding: 10px 0 10px 0;
+  font-size: 1.3em;
+}
+.featured-categories .form-group {
+  padding: 0;
+}
