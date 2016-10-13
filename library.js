@@ -48,6 +48,17 @@ plugin.getCategories = function(data, callback) {
 
 	categories.getCategories(cids, data.req.uid, function(err, categoriesData) {
 		data.templateData.featuredCategories = categoriesData;
+
+		socketAdmin.featuredCategories = {};
+		socketAdmin.featuredCategories.getFeatured = function (socket, the_data, callback) {
+			callback(null, {info: {
+				category_1: cids[0],
+				category_2: cids[1],
+				category_3: cids[2],
+				category_4: cids[3]
+			}});
+		}
+
 		callback(err, data);
 	});
 };
