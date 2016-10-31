@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/plugins/nodebb-plugin-featured-categories/static/admin.css">
+<link rel="stylesheet" href="{config.relative_path}/plugins/nodebb-plugin-featured-categories/static/admin.css">
 <div class="row featured-categories">
 	<div class="col-lg-12">
 		<div class="panel panel-default">
